@@ -57,10 +57,10 @@ cat ~/.config/slack-dark.js >> /Applications/Slack.app/Contents/Resources/app.as
 brew install yarn
 
 # google cloud utils
-curl https://sdk.cloud.google.com | zsh
+curl https://sdk.cloud.google.com | bash
 exec -l $SHELL
 
 # exit message
 echo -e "\n=================\n"
-echo 
+echo
 echo "Configuration complete! Please restart your terminal"
